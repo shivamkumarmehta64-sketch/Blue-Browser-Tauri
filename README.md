@@ -1,7 +1,21 @@
-# Tauri + Vanilla TS
+# Blue Browser (Tauri)
 
-This template should help get you started developing with Tauri in vanilla HTML, CSS and Typescript.
+> **Cross-platform desktop browser engineered in Rust, Tauri, TypeScript, and React — bringing native system-webview performance to Windows, macOS, and Linux.**  
+> Companion project to [Black Browser (`Black-Firefox`)](https://github.com/shivamkumarmehta64-sketch/Black-Firefox).
 
-## Recommended IDE Setup
+---
 
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+## Core Architecture & Features
+
+- **Rust + Tauri Backend:** Replaces heavy multi-process Chromium/Electron bundling with a memory-safe Rust core and native OS webviews.
+- **Privacy Shield Counters:** Built-in tracker and ad-request blocking counters with real-time telemetry.
+- **Command Palette & Frecency:** Keyboard-first command palette and frecency-ranked address bar suggestions.
+- **Theme Engine:** Dynamic dark/light glassmorphic themes built with React and TypeScript.
+
+## Downloads
+
+Pre-built Windows installers (`.exe` & `.msi`) are available on the [Releases page](https://github.com/shivamkumarmehta64-sketch/Blue-Browser-Tauri/releases/tag/v0.1.0).
+
+## License
+
+MIT License — see [`LICENSE`](./LICENSE).
